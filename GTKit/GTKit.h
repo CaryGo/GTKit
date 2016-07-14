@@ -20,3 +20,4 @@
  *  GTKit Classes
  */
 #import "GTApp.h"
+#import "NSException+GTException.h"

@@ -15,9 +15,9 @@
 		183ACF7D1D37499B00E51C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183ACF7B1D37499B00E51C54 /* LaunchScreen.storyboard */; };
 		183ACF881D37499B00E51C54 /* GTKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACF871D37499B00E51C54 /* GTKitDemoTests.m */; };
 		183ACF931D37499B00E51C54 /* GTKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACF921D37499B00E51C54 /* GTKitDemoUITests.m */; };
-		183ACFCA1D3763DC00E51C54 /* GTApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFC21D3763DC00E51C54 /* GTApp.m */; };
-		183ACFCB1D3763DC00E51C54 /* NSException+GTException.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFC51D3763DC00E51C54 /* NSException+GTException.m */; };
-		183ACFCC1D3763DC00E51C54 /* WatchConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFC71D3763DC00E51C54 /* WatchConnectivity.m */; };
+		183ACFD51D3764C200E51C54 /* GTApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFCF1D3764C200E51C54 /* GTApp.m */; };
+		183ACFD61D3764C200E51C54 /* NSException+GTException.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFD21D3764C200E51C54 /* NSException+GTException.m */; };
+		183ACFD71D3764C200E51C54 /* WatchConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFD41D3764C200E51C54 /* WatchConnectivity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +54,13 @@
 		183ACF8E1D37499B00E51C54 /* GTKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183ACF921D37499B00E51C54 /* GTKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTKitDemoUITests.m; sourceTree = "<group>"; };
 		183ACF941D37499B00E51C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		183ACFC11D3763DC00E51C54 /* GTApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTApp.h; sourceTree = "<group>"; };
-		183ACFC21D3763DC00E51C54 /* GTApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTApp.m; sourceTree = "<group>"; };
-		183ACFC41D3763DC00E51C54 /* NSException+GTException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+GTException.h"; sourceTree = "<group>"; };
-		183ACFC51D3763DC00E51C54 /* NSException+GTException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+GTException.m"; sourceTree = "<group>"; };
-		183ACFC61D3763DC00E51C54 /* WatchConnectivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchConnectivity.h; sourceTree = "<group>"; };
-		183ACFC71D3763DC00E51C54 /* WatchConnectivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchConnectivity.m; sourceTree = "<group>"; };
-		183ACFC81D3763DC00E51C54 /* GTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTKit.h; sourceTree = "<group>"; };
+		183ACFCE1D3764C200E51C54 /* GTApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTApp.h; sourceTree = "<group>"; };
+		183ACFCF1D3764C200E51C54 /* GTApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTApp.m; sourceTree = "<group>"; };
+		183ACFD01D3764C200E51C54 /* GTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTKit.h; sourceTree = "<group>"; };
+		183ACFD11D3764C200E51C54 /* NSException+GTException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+GTException.h"; sourceTree = "<group>"; };
+		183ACFD21D3764C200E51C54 /* NSException+GTException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+GTException.m"; sourceTree = "<group>"; };
+		183ACFD31D3764C200E51C54 /* WatchConnectivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchConnectivity.h; sourceTree = "<group>"; };
+		183ACFD41D3764C200E51C54 /* WatchConnectivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchConnectivity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 		183ACF6C1D37499B00E51C54 /* GTKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				183ACFBF1D3763DC00E51C54 /* GTKit */,
+				183ACFCD1D3764C200E51C54 /* GTKit */,
 				183ACF701D37499B00E51C54 /* AppDelegate.h */,
 				183ACF711D37499B00E51C54 /* AppDelegate.m */,
 				183ACF731D37499B00E51C54 /* ViewController.h */,
@@ -151,43 +151,19 @@
 			path = GTKitDemoUITests;
 			sourceTree = "<group>";
 		};
-		183ACFBF1D3763DC00E51C54 /* GTKit */ = {
+		183ACFCD1D3764C200E51C54 /* GTKit */ = {
 			isa = PBXGroup;
 			children = (
-				183ACFC01D3763DC00E51C54 /* AppKit */,
-				183ACFC31D3763DC00E51C54 /* Foundation */,
-				183ACFC81D3763DC00E51C54 /* GTKit.h */,
-				183ACFC91D3763DC00E51C54 /* UIKit */,
+				183ACFCE1D3764C200E51C54 /* GTApp.h */,
+				183ACFCF1D3764C200E51C54 /* GTApp.m */,
+				183ACFD01D3764C200E51C54 /* GTKit.h */,
+				183ACFD11D3764C200E51C54 /* NSException+GTException.h */,
+				183ACFD21D3764C200E51C54 /* NSException+GTException.m */,
+				183ACFD31D3764C200E51C54 /* WatchConnectivity.h */,
+				183ACFD41D3764C200E51C54 /* WatchConnectivity.m */,
 			);
 			name = GTKit;
 			path = ../../GTKit;
-			sourceTree = "<group>";
-		};
-		183ACFC01D3763DC00E51C54 /* AppKit */ = {
-			isa = PBXGroup;
-			children = (
-				183ACFC11D3763DC00E51C54 /* GTApp.h */,
-				183ACFC21D3763DC00E51C54 /* GTApp.m */,
-			);
-			path = AppKit;
-			sourceTree = "<group>";
-		};
-		183ACFC31D3763DC00E51C54 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				183ACFC41D3763DC00E51C54 /* NSException+GTException.h */,
-				183ACFC51D3763DC00E51C54 /* NSException+GTException.m */,
-				183ACFC61D3763DC00E51C54 /* WatchConnectivity.h */,
-				183ACFC71D3763DC00E51C54 /* WatchConnectivity.m */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		183ACFC91D3763DC00E51C54 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,12 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183ACFCC1D3763DC00E51C54 /* WatchConnectivity.m in Sources */,
+				183ACFD71D3764C200E51C54 /* WatchConnectivity.m in Sources */,
 				183ACF751D37499B00E51C54 /* ViewController.m in Sources */,
 				183ACF721D37499B00E51C54 /* AppDelegate.m in Sources */,
-				183ACFCA1D3763DC00E51C54 /* GTApp.m in Sources */,
+				183ACFD51D3764C200E51C54 /* GTApp.m in Sources */,
 				183ACF6F1D37499B00E51C54 /* main.m in Sources */,
-				183ACFCB1D3763DC00E51C54 /* NSException+GTException.m in Sources */,
+				183ACFD61D3764C200E51C54 /* NSException+GTException.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

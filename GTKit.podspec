@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/CaryGo/GTKit.git', :tag => s.version.to_s }
   
   s.requires_arc = true
-  s.source_files = 'GTKit/GTKit/*.{h,m}'
-  s.public_header_files = 'GTKit/GTKit/*.{h}'
+  s.source_files = 'GTKit/*.{h,m}'
+  s.public_header_files = 'GTKit/*.{h}'
 
   s.libraries = 'z', 'sqlite3'
   s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary', 'Accelerate', 'MobileCoreServices', 'SystemConfiguration'

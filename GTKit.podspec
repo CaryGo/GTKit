@@ -1,20 +1,23 @@
-
 Pod::Spec.new do |s|
   s.name         = 'GTKit'
-  s.summary      = 'A collection of iOS components.'
-  s.version      = '0.0.1'
+  s.summary      = 'High performance model framework for iOS/OSX.'
+  s.version      = '0.0.3'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'Cary' => 'guojiashuang@live.com' }
-  #s.social_media_url = 'http://blog.ibireme.com'
+  #s.social_media_url = 'http://blog.Cary.com'
   s.homepage     = 'https://github.com/CaryGo/GTKit'
-  s.platform     = :ios
+
+  s.ios.deployment_target = '6.0'
+  s.osx.deployment_target = '10.7'
+  s.watchos.deployment_target = '2.0'
+  s.tvos.deployment_target = '9.0'
+
   s.source       = { :git => 'https://github.com/CaryGo/GTKit.git', :tag => s.version.to_s }
   
   s.requires_arc = true
   s.source_files = 'GTKit/*.{h,m}'
-  s.public_header_files = 'GTKit/*.{h}'
-
-  s.libraries = 'z', 'sqlite3'
-  s.frameworks = 'UIKit', 'CoreFoundation', 'CoreText', 'CoreGraphics', 'CoreImage', 'QuartzCore', 'ImageIO', 'AssetsLibrary', 'Accelerate', 'MobileCoreServices', 'SystemConfiguration'
+  #s.public_header_files = 'GTKit/*.{h}'
+  
+  s.frameworks = 'Foundation', 'CoreFoundation'
 
 end

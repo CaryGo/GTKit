@@ -17,6 +17,8 @@
 		183ACF931D37499B00E51C54 /* GTKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACF921D37499B00E51C54 /* GTKitDemoUITests.m */; };
 		183ACFE21D37997000E51C54 /* GTApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFDC1D37997000E51C54 /* GTApp.m */; };
 		183ACFE31D37997000E51C54 /* NSException+GTException.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFDF1D37997000E51C54 /* NSException+GTException.m */; };
+		183ACFE61D37A12A00E51C54 /* NSString+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFE51D37A12A00E51C54 /* NSString+Add.m */; };
+		183ACFE91D37A13D00E51C54 /* UIView+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFE81D37A13D00E51C54 /* UIView+Add.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		183ACFDE1D37997000E51C54 /* NSException+GTException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+GTException.h"; sourceTree = "<group>"; };
 		183ACFDF1D37997000E51C54 /* NSException+GTException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+GTException.m"; sourceTree = "<group>"; };
 		183ACFE01D37997000E51C54 /* GTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTKit.h; sourceTree = "<group>"; };
+		183ACFE41D37A12A00E51C54 /* NSString+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Add.h"; sourceTree = "<group>"; };
+		183ACFE51D37A12A00E51C54 /* NSString+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Add.m"; sourceTree = "<group>"; };
+		183ACFE71D37A13D00E51C54 /* UIView+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Add.h"; sourceTree = "<group>"; };
+		183ACFE81D37A13D00E51C54 /* UIView+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Add.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,8 @@
 		183ACFD91D37997000E51C54 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				183ACFE41D37A12A00E51C54 /* NSString+Add.h */,
+				183ACFE51D37A12A00E51C54 /* NSString+Add.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -189,6 +197,8 @@
 		183ACFE11D37997000E51C54 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				183ACFE71D37A13D00E51C54 /* UIView+Add.h */,
+				183ACFE81D37A13D00E51C54 /* UIView+Add.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -325,7 +335,9 @@
 			files = (
 				183ACF751D37499B00E51C54 /* ViewController.m in Sources */,
 				183ACF721D37499B00E51C54 /* AppDelegate.m in Sources */,
+				183ACFE91D37A13D00E51C54 /* UIView+Add.m in Sources */,
 				183ACFE21D37997000E51C54 /* GTApp.m in Sources */,
+				183ACFE61D37A12A00E51C54 /* NSString+Add.m in Sources */,
 				183ACF6F1D37499B00E51C54 /* main.m in Sources */,
 				183ACFE31D37997000E51C54 /* NSException+GTException.m in Sources */,
 			);

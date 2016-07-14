@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation', 'CoreFoundation'
   
   #s.source_files = 'GTKit/GTKit.h'
-  s.public_header_files = 'GTKit/GTKit.h'
+  s.public_header_files = 'GTKit/*.h'
   
   s.subspec 'UIKit' do |ui|
 
@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
 	ss.source_files = 'GTKit/Common/*.{h,m}'
 
   end
-  s.subspec 'Categories' do |ss|
+  s.subspec 'Cat# egories' do |ss|
 
 	ss.source_files = 'GTKit/Categories/*.{h,m}'
 

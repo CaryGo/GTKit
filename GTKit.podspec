@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   # s.description = <<-DESC
 # 帮助开发者快速集成项目。
 # DESC
-  s.version      = '0.0.5'
+  s.version      = '0.0.6'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'Cary' => 'guojiashuang@live.com' }
   #s.social_media_url = 'http://blog.Cary.com'
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   
   s.default_subspec = 'UIKit', 'Foundation', 'Common', 'Categories'
   
-  s.frameworks = 'Foundation', 'CoreFoundation'
+  s.frameworks = 'Foundation', 'CoreFoundation', 'UIKit'
   
   #s.source_files = 'GTKit/GTKit.h'
   s.public_header_files = 'GTKit/*.h'
@@ -50,16 +50,10 @@ Pod::Spec.new do |s|
 	ss.source_files = 'GTKit/Common/*.{h,m}'
 
   end
-  s.subspec 'Cat# egories' do |ss|
+  s.subspec 'Categories' do |ss|
 
 	ss.source_files = 'GTKit/Categories/*.{h,m}'
 
   end
-
-
-
-
-
-
 
 end

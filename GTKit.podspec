@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'GTKit'
   s.summary      = 'High performance model framework for iOS/OSX.'
-  s.version      = '0.0.3'
+  s.version      = '0.0.4'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'Cary' => 'guojiashuang@live.com' }
   #s.social_media_url = 'http://blog.Cary.com'

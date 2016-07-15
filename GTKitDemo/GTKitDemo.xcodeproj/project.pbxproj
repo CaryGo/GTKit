@@ -15,10 +15,8 @@
 		183ACF7D1D37499B00E51C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183ACF7B1D37499B00E51C54 /* LaunchScreen.storyboard */; };
 		183ACF881D37499B00E51C54 /* GTKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACF871D37499B00E51C54 /* GTKitDemoTests.m */; };
 		183ACF931D37499B00E51C54 /* GTKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACF921D37499B00E51C54 /* GTKitDemoUITests.m */; };
-		183ACFE21D37997000E51C54 /* GTApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFDC1D37997000E51C54 /* GTApp.m */; };
-		183ACFE31D37997000E51C54 /* NSException+GTException.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFDF1D37997000E51C54 /* NSException+GTException.m */; };
-		183ACFE61D37A12A00E51C54 /* NSString+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFE51D37A12A00E51C54 /* NSString+Add.m */; };
-		183ACFE91D37A13D00E51C54 /* UIView+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 183ACFE81D37A13D00E51C54 /* UIView+Add.m */; };
+		183AD0331D38B9ED00E51C54 /* GTApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD02F1D38B9ED00E51C54 /* GTApp.m */; };
+		183AD0341D38B9ED00E51C54 /* NSException+GTException.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AD0321D38B9ED00E51C54 /* NSException+GTException.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,15 +53,11 @@
 		183ACF8E1D37499B00E51C54 /* GTKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183ACF921D37499B00E51C54 /* GTKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTKitDemoUITests.m; sourceTree = "<group>"; };
 		183ACF941D37499B00E51C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		183ACFDB1D37997000E51C54 /* GTApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTApp.h; sourceTree = "<group>"; };
-		183ACFDC1D37997000E51C54 /* GTApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTApp.m; sourceTree = "<group>"; };
-		183ACFDE1D37997000E51C54 /* NSException+GTException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+GTException.h"; sourceTree = "<group>"; };
-		183ACFDF1D37997000E51C54 /* NSException+GTException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+GTException.m"; sourceTree = "<group>"; };
-		183ACFE01D37997000E51C54 /* GTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTKit.h; sourceTree = "<group>"; };
-		183ACFE41D37A12A00E51C54 /* NSString+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Add.h"; sourceTree = "<group>"; };
-		183ACFE51D37A12A00E51C54 /* NSString+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Add.m"; sourceTree = "<group>"; };
-		183ACFE71D37A13D00E51C54 /* UIView+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Add.h"; sourceTree = "<group>"; };
-		183ACFE81D37A13D00E51C54 /* UIView+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Add.m"; sourceTree = "<group>"; };
+		183AD02E1D38B9ED00E51C54 /* GTApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTApp.h; sourceTree = "<group>"; };
+		183AD02F1D38B9ED00E51C54 /* GTApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTApp.m; sourceTree = "<group>"; };
+		183AD0301D38B9ED00E51C54 /* GTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTKit.h; sourceTree = "<group>"; };
+		183AD0311D38B9ED00E51C54 /* NSException+GTException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+GTException.h"; sourceTree = "<group>"; };
+		183AD0321D38B9ED00E51C54 /* NSException+GTException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+GTException.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +108,7 @@
 		183ACF6C1D37499B00E51C54 /* GTKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				183ACFD81D37997000E51C54 /* GTKit */,
+				183AD02D1D38B9ED00E51C54 /* GTKit */,
 				183ACF701D37499B00E51C54 /* AppDelegate.h */,
 				183ACF711D37499B00E51C54 /* AppDelegate.m */,
 				183ACF731D37499B00E51C54 /* ViewController.h */,
@@ -154,53 +148,41 @@
 			path = GTKitDemoUITests;
 			sourceTree = "<group>";
 		};
-		183ACFD81D37997000E51C54 /* GTKit */ = {
+		183AD02D1D38B9ED00E51C54 /* GTKit */ = {
 			isa = PBXGroup;
 			children = (
-				183ACFE01D37997000E51C54 /* GTKit.h */,
-				183ACFD91D37997000E51C54 /* Categories */,
-				183ACFDA1D37997000E51C54 /* Common */,
-				183ACFDD1D37997000E51C54 /* Foundation */,
-				183ACFE11D37997000E51C54 /* UIKit */,
+				183AD0301D38B9ED00E51C54 /* GTKit.h */,
+				183AD0371D38BA1E00E51C54 /* UIKit */,
+				183AD0361D38BA1300E51C54 /* Foundation */,
+				183AD0351D38BA0A00E51C54 /* Common */,
 			);
 			name = GTKit;
 			path = ../../GTKit;
 			sourceTree = "<group>";
 		};
-		183ACFD91D37997000E51C54 /* Categories */ = {
+		183AD0351D38BA0A00E51C54 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				183ACFE41D37A12A00E51C54 /* NSString+Add.h */,
-				183ACFE51D37A12A00E51C54 /* NSString+Add.m */,
+				183AD02E1D38B9ED00E51C54 /* GTApp.h */,
+				183AD02F1D38B9ED00E51C54 /* GTApp.m */,
 			);
-			path = Categories;
+			name = Common;
 			sourceTree = "<group>";
 		};
-		183ACFDA1D37997000E51C54 /* Common */ = {
+		183AD0361D38BA1300E51C54 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				183ACFDB1D37997000E51C54 /* GTApp.h */,
-				183ACFDC1D37997000E51C54 /* GTApp.m */,
+				183AD0311D38B9ED00E51C54 /* NSException+GTException.h */,
+				183AD0321D38B9ED00E51C54 /* NSException+GTException.m */,
 			);
-			path = Common;
+			name = Foundation;
 			sourceTree = "<group>";
 		};
-		183ACFDD1D37997000E51C54 /* Foundation */ = {
+		183AD0371D38BA1E00E51C54 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				183ACFDE1D37997000E51C54 /* NSException+GTException.h */,
-				183ACFDF1D37997000E51C54 /* NSException+GTException.m */,
 			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		183ACFE11D37997000E51C54 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				183ACFE71D37A13D00E51C54 /* UIView+Add.h */,
-				183ACFE81D37A13D00E51C54 /* UIView+Add.m */,
-			);
-			path = UIKit;
+			name = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,11 +317,9 @@
 			files = (
 				183ACF751D37499B00E51C54 /* ViewController.m in Sources */,
 				183ACF721D37499B00E51C54 /* AppDelegate.m in Sources */,
-				183ACFE91D37A13D00E51C54 /* UIView+Add.m in Sources */,
-				183ACFE21D37997000E51C54 /* GTApp.m in Sources */,
-				183ACFE61D37A12A00E51C54 /* NSString+Add.m in Sources */,
+				183AD0331D38B9ED00E51C54 /* GTApp.m in Sources */,
 				183ACF6F1D37499B00E51C54 /* main.m in Sources */,
-				183ACFE31D37997000E51C54 /* NSException+GTException.m in Sources */,
+				183AD0341D38B9ED00E51C54 /* NSException+GTException.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.description = <<-DESC
 帮助开发者快速集成项目。
 DESC
-  s.version      = '0.1.0'
+  s.version      = '0.1.1'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'Cary' => 'guojiashuang@live.com' }
   #s.social_media_url = 'http://blog.Cary.com'

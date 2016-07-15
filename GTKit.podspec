@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   
   #s.source_files = 'GTKit/*.{h,m}'
   #s.public_header_files = 'GTKit/GTKit'
-#   s.source_files = 'GTKit/**/*'
-  s.public_header_files = 'GTKit/*.h'
+  s.source_files = 'GTKit/*.h'
+#   s.public_header_files = 'GTKit/**/*.h'
   
   s.subspec 'Common' do |ss|
       ss.source_files = 'GTKit/Common/**/*'

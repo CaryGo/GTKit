@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = 'GTKit'
   s.summary      = 'HelpKit .'
-    s.description = <<-DESC
+  s.description = <<-DESC
 帮助开发者快速集成项目。
 DESC
-  s.version      = '0.0.9'
+  s.version      = '0.1.0'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'Cary' => 'guojiashuang@live.com' }
   #s.social_media_url = 'http://blog.Cary.com'
@@ -19,8 +19,8 @@ DESC
   
   s.requires_arc = true
   s.source_files = 'GTKit/*.{h,m}'
-  #s.public_header_files = 'GTKit/*.{h}'
+  #s.public_header_files = 'GTKit/GTKit'
   
-  s.frameworks = 'Foundation', 'CoreFoundation', 'UIKit'
+  s.frameworks = 'Foundation', 'CoreFoundation'
 
 end

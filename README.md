@@ -3,7 +3,7 @@ GTKit把常用的类和第三方抽离出来，方便集成
 
 # 使用方法
 ## 使用CocoaPods导入
-pod 'GTKit'\n
+pod 'GTKit'
 pod install
 
 ## 使用文件导入
